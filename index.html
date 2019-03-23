@@ -1,0 +1,230 @@
+<!DOCTYPE Html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>Javascript Drum Kit</title>
+		<link rel="stylesheet" href="style.css">
+	</head>
+	<body>
+		<div class="keyboardkeys">
+			<div data-key="51" class="key">
+				<kbd>3</kbd>
+				<span class="sound">CLAP</span>
+			</div>
+			<div data-key="52" class="key">
+				<kbd>4</kbd>
+				<span class="sound">CLAP</span>
+			</div>
+			<div data-key="53" class="key">
+				<kbd>5</kbd>
+				<span class="sound">CLAP</span>
+			</div>
+			<div data-key="54" class="key">
+				<kbd>6</kbd>
+				<span class="sound">CLAP</span>
+			</div>
+			<div data-key="55" class="key">
+				<kbd>7</kbd>
+				<span class="sound">CLAP</span>
+			</div>
+			<div data-key="56" class="key">
+				<kbd>8</kbd>
+				<span class="sound">CLAP</span>
+			</div>
+			<div data-key="57" class="key">
+				<kbd>9</kbd>
+				<span class="sound">CLAP</span>
+			</div>
+			<div data-key="48" class="key">
+				<kbd>0</kbd>
+				<span class="sound">CLAP</span>
+			</div>
+			<div data-key="81" class="key">
+				<kbd>Q</kbd>
+				<span class="sound">CLAP</span>
+			</div>
+			<div data-key="87" class="key">
+				<kbd>W</kbd>
+				<span class="sound">CLAP</span>
+			</div>
+			<div data-key="69" class="key">
+				<kbd>E</kbd>
+				<span class="sound">CLAP</span>
+			</div>
+			<div data-key="82" class="key">
+				<kbd>R</kbd>
+				<span class="sound">CLAP</span>
+			</div>
+			<div data-key="84" class="key">
+				<kbd>T</kbd>
+				<span class="sound">CLAP</span>
+			</div>
+			<div data-key="89" class="key">
+				<kbd>Y</kbd>
+				<span class="sound">CLAP</span>
+			</div>
+			<div data-key="85" class="key">
+				<kbd>U</kbd>
+				<span class="sound">CLAP</span>
+			</div>
+			<div data-key="73" class="key">
+				<kbd>I</kbd>
+				<span class="sound">CLAP</span>
+			</div>
+			<div data-key="79" class="key">
+				<kbd>O</kbd>
+				<span class="sound">CLAP</span>
+			</div>
+			<div data-key="80" class="key">
+				<kbd>P</kbd>
+				<span class="sound">CLAP</span>
+			</div>
+			<div data-key="219" class="key">
+				<kbd>[</kbd>
+				<span class="sound">CLAP</span>
+			</div>
+			<div data-key="221" class="key">
+				<kbd>]</kbd>
+				<span class="sound">CLAP</span>
+			</div>
+			<div data-key="65" class="key">
+				<kbd>A</kbd>
+				<span class="sound">CLAP</span>
+			</div>
+			<div data-key="83" class="key">
+				<kbd>S</kbd>
+				<span class="sound">HITHAT</span>
+			</div>
+			<div data-key="68" class="key">
+				<kbd>D</kbd>
+				<span class="sound">KICK</span>
+			</div>
+			<div data-key="70" class="key">
+				<kbd>F</kbd>
+				<span class="sound">OPENHAT</span>
+			</div>
+			<div data-key="71" class="key">
+				<kbd>G</kbd>
+				<span class="sound">BOOM</span>
+			</div>
+			<div data-key="72" class="key">
+				<kbd>H</kbd>
+				<span class="sound">RIDE</span>
+			</div>
+			<div data-key="74" class="key">
+				<kbd>J</kbd>
+				<span class="sound">SNARE</span>
+			</div>
+			<div data-key="75" class="key">
+				<kbd>K</kbd>
+				<span class="sound">TOM</span>
+			</div>
+			<div data-key="76" class="key">
+				<kbd>L</kbd>
+				<span class="sound">TINK</span>
+			</div>
+			<div data-key="186" class="key">
+				<kbd>;</kbd>
+				<span class="sound">TINK</span>
+			</div>
+			<div data-key="222" class="key">
+				<kbd>'</kbd>
+				<span class="sound">TINK</span>
+			</div>
+			<div data-key="90" class="key">
+				<kbd>Z</kbd>
+				<span class="sound">TINK</span>
+			</div>
+			<div data-key="88" class="key">
+				<kbd>X</kbd>
+				<span class="sound">TINK</span>
+			</div>
+			<div data-key="67" class="key">
+				<kbd>C</kbd>
+				<span class="sound">TINK</span>
+			</div>
+			<div data-key="86" class="key">
+				<kbd>V</kbd>
+				<span class="sound">TINK</span>
+			</div>
+			<div data-key="66" class="key">
+				<kbd>B</kbd>
+				<span class="sound">TINK</span>
+			</div>
+			<div data-key="78" class="key">
+				<kbd>N</kbd>
+				<span class="sound">TINK</span>
+			</div>
+			<div data-key="77" class="key">
+				<kbd>M</kbd>
+				<span class="sound">TINK</span>
+			</div>
+			<div data-key="188" class="key">
+				<kbd>,</kbd>
+				<span class="sound">TINK</span>
+			</div>
+			<div data-key="190" class="key">
+				<kbd>.</kbd>
+				<span class="sound">TINK</span>
+			</div>
+			<div data-key="191" class="key">
+				<kbd>/</kbd>
+				<span class="sound">TINK</span>
+			</div>
+		</div>
+
+		<audio data-key="51" src="sounds/Percs/Mira Perc.wav"></audio>
+		<audio data-key="52" src="sounds/Percs/Overused Perc.wav"></audio>
+		<audio data-key="53" src="sounds/Snares/Carti Snare.wav"></audio>
+		<audio data-key="54" src="sounds/Snares/Dumbboii Snare.wav"></audio>
+		<audio data-key="55" src="sounds/Snares/GoTo Snare.wav"></audio>
+		<audio data-key="56" src="sounds/Snares/Knock Snare.wav"></audio>
+		<audio data-key="57" src="sounds/Snares/Smooth Snare.wav"></audio>
+		<audio data-key="48" src="sounds/Snares/Wheezy Snare.wav"></audio>
+		<audio data-key="81" src="sounds/Claps/Panther Clap.wav"></audio>
+		<audio data-key="87" src="sounds/Claps/Rich Clap.wav"></audio>
+		<audio data-key="69" src="sounds/Claps/Snary Clap.wav"></audio>
+		<audio data-key="82" src="sounds/HiHats/Creamy Hihat.wav"></audio>
+		<audio data-key="84" src="sounds/HiHats/Dumbboii Hihat.wav"></audio>
+		<audio data-key="89" src="sounds/HiHats/Myterious Hihat.wav"></audio>
+		<audio data-key="85" src="sounds/HiHats/Purple Hihat.wav"></audio>
+		<audio data-key="73" src="sounds/HiHats/Rari Hihat.wav"></audio>
+		<audio data-key="79" src="sounds/HiHats/Scotty Hihat.wav"></audio>
+		<audio data-key="80" src="sounds/HiHats/Ugly Hihat.wav"></audio>
+		<audio data-key="219" src="sounds/HiHats/Upset Hihat.wav"></audio>
+		<audio data-key="221" src="sounds/Percs/Mira Perc.wav"></audio>
+		<audio data-key="65" src="sounds/808/Astroworld 808.wav"></audio>
+		<audio data-key="83" src="sounds/808/Cash 808.wav"></audio>
+		<audio data-key="68" src="sounds/808/Girls 808.wav"></audio>
+		<audio data-key="70" src="sounds/808/Ice 808.wav"></audio>
+		<audio data-key="71" src="sounds/808/Reckless 808.wav"></audio>
+		<audio data-key="72" src="sounds/808/Rin 808.wav"></audio>
+		<audio data-key="74" src="sounds/808/Spinz 808.wav"></audio>
+		<audio data-key="75" src="sounds/Claps/Cash Clap.wav"></audio>
+		<audio data-key="76" src="sounds/Claps/NoCap Clap.wav"></audio>
+		<audio data-key="186" src="sounds/Kicks/123 Kick.wav"></audio>
+		<audio data-key="222" src="sounds/Kicks/Broke Kick.wav"></audio>
+		<audio data-key="90" src="sounds/Kicks/Dumbboii Kick.wav"></audio>
+		<audio data-key="88" src="sounds/Kicks/Hard Kick.wav"></audio>
+		<audio data-key="67" src="sounds/Kicks/Rack Kick.wav"></audio>
+		<audio data-key="86" src="sounds/Kicks/Ye Kick.wav"></audio>
+		<audio data-key="66" src="sounds/OpenHats/Dumbboii Openhat.wav"></audio>
+		<audio data-key="78" src="sounds/OpenHats/Slide Openhat.wav"></audio>
+		<audio data-key="77" src="sounds/OpenHats/Weed Openhat.wav"></audio>
+		<audio data-key="188" src="sounds/Percs/Hard Perc.wav"></audio>
+		<audio data-key="190" src="sounds/Percs/Lights Perc.wav"></audio>
+		<audio data-key="191" src="sounds/Percs/LV Perc.wav"></audio>
+	<script>
+		window.addEventListener( 'keydown', function(e) {
+			const audio = document.querySelector(`audio[data-key="${e.keyCode}"]`);
+			const key = document.querySelector(`.key[data-key="${e.keyCode}"]`);
+			if (!audio) return;
+
+			audio.currentTime = 0; // rewind to the start
+			audio.play();// Play the audio
+			key.classList.add('playing');
+		});
+	</script>
+
+	</body>
+</html>
